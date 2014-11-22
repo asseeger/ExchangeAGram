@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		7C83FCA11A1497CA00965E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C83FCA01A1497CA00965E8D /* AppDelegate.swift */; };
 		7C83FCA41A1497CA00965E8D /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C83FCA21A1497CA00965E8D /* ExchangeAGram.xcdatamodeld */; };
-		7C83FCA61A1497CA00965E8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C83FCA51A1497CA00965E8D /* ViewController.swift */; };
 		7C83FCA91A1497CA00965E8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C83FCA71A1497CA00965E8D /* Main.storyboard */; };
 		7C83FCAB1A1497CA00965E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C83FCAA1A1497CA00965E8D /* Images.xcassets */; };
 		7C83FCAE1A1497CA00965E8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C83FCAC1A1497CA00965E8D /* LaunchScreen.xib */; };
 		7C83FCBA1A1497CA00965E8D /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C83FCB91A1497CA00965E8D /* ExchangeAGramTests.swift */; };
+		7C83FCC41A1499BF00965E8D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C83FCC31A1499BF00965E8D /* FeedViewController.swift */; };
+		7C83FCC61A14F86400965E8D /* FeedCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C83FCC51A14F86400965E8D /* FeedCellCollectionViewCell.swift */; };
+		7C83FCC81A14F9EF00965E8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C83FCC71A14F9EF00965E8D /* MobileCoreServices.framework */; };
+		7C8B8CAF1A1A54E800EBF540 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B8CAE1A1A54E800EBF540 /* FilterViewController.swift */; };
+		7CB46B421A2059FF001DB1AB /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB46B411A2059FF001DB1AB /* FeedItem.swift */; };
+		7CF9F9331A1B124A00A3A377 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF9F9321A1B124A00A3A377 /* FilterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,18 @@
 		7C83FC9F1A1497CA00965E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C83FCA01A1497CA00965E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C83FCA31A1497CA00965E8D /* ExchangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram.xcdatamodel; sourceTree = "<group>"; };
-		7C83FCA51A1497CA00965E8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C83FCA81A1497CA00965E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C83FCAA1A1497CA00965E8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C83FCAD1A1497CA00965E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7C83FCB31A1497CA00965E8D /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C83FCB81A1497CA00965E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C83FCB91A1497CA00965E8D /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+		7C83FCC31A1499BF00965E8D /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7C83FCC51A14F86400965E8D /* FeedCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C83FCC71A14F9EF00965E8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7C8B8CAE1A1A54E800EBF540 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		7CB46B411A2059FF001DB1AB /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = ../FeedItem.swift; sourceTree = "<group>"; };
+		7CF9F9321A1B124A00A3A377 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C83FCC81A14F9EF00965E8D /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,11 +91,14 @@
 			isa = PBXGroup;
 			children = (
 				7C83FCA01A1497CA00965E8D /* AppDelegate.swift */,
-				7C83FCA51A1497CA00965E8D /* ViewController.swift */,
+				7C83FCC31A1499BF00965E8D /* FeedViewController.swift */,
+				7C8B8CAE1A1A54E800EBF540 /* FilterViewController.swift */,
 				7C83FCA71A1497CA00965E8D /* Main.storyboard */,
+				7C83FCC51A14F86400965E8D /* FeedCellCollectionViewCell.swift */,
+				7CF9F9321A1B124A00A3A377 /* FilterCell.swift */,
+				7CB46B431A205A1F001DB1AB /* Model */,
 				7C83FCAA1A1497CA00965E8D /* Images.xcassets */,
 				7C83FCAC1A1497CA00965E8D /* LaunchScreen.xib */,
-				7C83FCA21A1497CA00965E8D /* ExchangeAGram.xcdatamodeld */,
 				7C83FC9E1A1497CA00965E8D /* Supporting Files */,
 			);
 			path = ExchangeAGram;
@@ -93,6 +107,7 @@
 		7C83FC9E1A1497CA00965E8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C83FCC71A14F9EF00965E8D /* MobileCoreServices.framework */,
 				7C83FC9F1A1497CA00965E8D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +128,15 @@
 				7C83FCB81A1497CA00965E8D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CB46B431A205A1F001DB1AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CB46B411A2059FF001DB1AB /* FeedItem.swift */,
+				7C83FCA21A1497CA00965E8D /* ExchangeAGram.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C83FCA61A1497CA00965E8D /* ViewController.swift in Sources */,
+				7CF9F9331A1B124A00A3A377 /* FilterCell.swift in Sources */,
+				7C8B8CAF1A1A54E800EBF540 /* FilterViewController.swift in Sources */,
+				7C83FCC61A14F86400965E8D /* FeedCellCollectionViewCell.swift in Sources */,
 				7C83FCA11A1497CA00965E8D /* AppDelegate.swift in Sources */,
+				7C83FCC41A1499BF00965E8D /* FeedViewController.swift in Sources */,
+				7CB46B421A2059FF001DB1AB /* FeedItem.swift in Sources */,
 				7C83FCA41A1497CA00965E8D /* ExchangeAGram.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +439,7 @@
 				7C83FCBF1A1497CA00965E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C83FCC01A1497CA00965E8D /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +448,7 @@
 				7C83FCC21A1497CA00965E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
